@@ -10,8 +10,8 @@
     >
       <NuxtLink :to="{ name: 'index' }">Home</NuxtLink> |
       <NuxtLink :to="{ name: 'about' }">About</NuxtLink> |
-      <NuxtLink :to="{ name: 'profile' }" to="">Profile</NuxtLink> |
-      <NuxtLink :to="{ name: 'blogs' }">Blogs</NuxtLink>
+      <NuxtLink :to="{ name: 'profile' }">Profile</NuxtLink> |
+      <NuxtLink :to="{ name: 'products' }">Products</NuxtLink>
     </nav>
   </div>
 </template>
@@ -19,7 +19,7 @@
 <script>
 export default {
   mounted() {
-    console.log(this.$router.options.routes);
+    // console.log(this.$router.options.routes);
   },
 };
 </script>
